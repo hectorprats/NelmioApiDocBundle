@@ -29,6 +29,11 @@ runs:
           ${{ runner.os }}-composer-${{ hashFiles('**/composer.json') }}
           ${{ runner.os }}-composer-
 
+    - name: Overwrite minimum-stability to rc
+      if: ${{ inputs.symfony-version == '7.4' || inputs.symfony-version == '8.0' }}
+      run: composer config minimum-stability rc
+      shell: bash
+
     - name: Install dependencies with Composer
       env:
         SYMFONY_REQUIRE: "${{ inputs.symfony-version }}.*"
