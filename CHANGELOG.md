@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [5.8.2](https://github.com/nelmio/NelmioApiDocBundle/compare/v5.8.1...v5.8.2) (2025-11-24)
+
+
+### Miscellaneous Chores
+
+* **deps:** bump @stoplight/elements from 9.0.11 to 9.0.12 in /utils ([#2625](https://github.com/nelmio/NelmioApiDocBundle/issues/2625)) ([e54c6c2](https://github.com/nelmio/NelmioApiDocBundle/commit/e54c6c2987b7349dfd7e14fc9d7b8e65afb9905d))
+
 ## [5.8.1](https://github.com/nelmio/NelmioApiDocBundle/compare/v5.8.0...v5.8.1) (2025-11-14)
 
 
